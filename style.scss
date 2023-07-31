@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;500;700&display=swap');
 
+
 $black : #151515;
 $cream : #eeede8;
 $green: #525a28;
@@ -21,6 +22,7 @@ html::-webkit-scrollbar {
 }
 
 html {
+
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
@@ -32,10 +34,12 @@ html {
 
 body {
   background: $white;
+  overflow-x: hidden;
+  width: 100%;
 
 }
 
-.container-fluid {
+.box-header.container-fluid {
   background-image: url(https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvNDEwLWppcjY1ODUtamlyXzEuanBn.jpg);
   background-size: cover;
 }
@@ -195,6 +199,7 @@ section.title {
 section.products {
   padding: 5rem 10rem;
 
+
   .navbar-product {
     display: flex;
     justify-content: space-between;
@@ -237,22 +242,18 @@ section.products {
     padding-bottom: .3rem;
   }
 
-  .box-catalog {
-    display: flex;
+  .box-catalog  {
     transition: left 0.5s ease;
+    
   }
 
-  .box-catalog-set {
-    display: flex;
-    width: 100%;
+  .box-catalog-set{
     justify-content: center;
-    margin-right: 20rem;
 
     .box-catalog-item-picture {
       margin: 3rem 2rem;
       width: 320px;
       height: 350px;
-      overflow: hidden;
     }
 
     .box-catalog-item-picture img {
@@ -315,7 +316,12 @@ section.products {
       opacity: 100%;
     }
   }
+
+  
+  
 }
+
+
 
 
 

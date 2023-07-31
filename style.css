@@ -21,9 +21,10 @@ html {
 body {
   background: #ffffff;
   overflow-x: hidden;
+  width: 100%;
 }
 
-.container-fluid {
+.box-header.container-fluid {
   background-image: url(https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvNDEwLWppcjY1ODUtamlyXzEuanBn.jpg);
   background-size: cover;
 }
@@ -190,20 +191,15 @@ section.products .icon-product div:hover {
   padding-bottom: 0.3rem;
 }
 section.products .box-catalog {
-  display: flex;
   transition: left 0.5s ease;
 }
 section.products .box-catalog-set {
-  display: flex;
-  width: 100%;
   justify-content: center;
-  margin-right: 20rem;
 }
 section.products .box-catalog-set .box-catalog-item-picture {
   margin: 3rem 2rem;
   width: 320px;
   height: 350px;
-  overflow: hidden;
 }
 section.products .box-catalog-set .box-catalog-item-picture img {
   width: 100%;
