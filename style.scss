@@ -247,41 +247,6 @@ section.products {
     
   }
 
-  .box-catalog-set{
-    justify-content: center;
-
-    .box-catalog-item-picture {
-      margin: 3rem 2rem;
-      width: 320px;
-      height: 350px;
-    }
-
-    .box-catalog-item-picture img {
-      width: 100%;
-      height: 100%;
-      border-radius: 5px;
-      object-fit: cover;
-    }
-
-
-    .box-catalog-item img:hover {
-      transform: scale(1.1);
-
-    }
-
-    .detail {
-      padding: 0 2.5rem;
-      margin-top: -2.2rem;
-
-      p {
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding: .8rem 0;
-        margin-bottom: -1rem;
-      }
-    }
-
-  }
 }
 
 
