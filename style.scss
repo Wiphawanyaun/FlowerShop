@@ -197,8 +197,7 @@ section.title {
 
 
 section.products {
-  padding: 5rem 10rem;
-
+  padding: 5rem 11%;
 
   .navbar-product {
     display: flex;
@@ -226,24 +225,10 @@ section.products {
 
   }
 
-  .icon-product {
-    cursor: pointer;
-    margin-top: 1.2rem;
-    font-size: 1.8rem;
-  }
 
-  .icon-product div {
-    margin-left: 1.5rem;
-  }
-
-  .icon-product div:hover {
-    color: $pink;
-    border-bottom: .15rem solid $pink;
-    padding-bottom: .3rem;
-  }
 
   .box-catalog  {
-    transition: left 0.5s ease;
+    
     .box-image{
 
       justify-content: center;

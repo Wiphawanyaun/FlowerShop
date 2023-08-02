@@ -154,7 +154,7 @@ section.title button.more-btn:hover {
 }
 
 section.products {
-  padding: 5rem 10rem;
+  padding: 5rem 11%;
 }
 section.products .navbar-product {
   display: flex;
@@ -176,22 +176,6 @@ section.products .navbar-product .title-product a.our-pro {
   color: #151515;
   font-size: 3rem;
   font-weight: 600;
-}
-section.products .icon-product {
-  cursor: pointer;
-  margin-top: 1.2rem;
-  font-size: 1.8rem;
-}
-section.products .icon-product div {
-  margin-left: 1.5rem;
-}
-section.products .icon-product div:hover {
-  color: rgb(255, 192, 203);
-  border-bottom: 0.15rem solid rgb(255, 192, 203);
-  padding-bottom: 0.3rem;
-}
-section.products .box-catalog {
-  transition: left 0.5s ease;
 }
 section.products .box-catalog .box-image {
   justify-content: center;
