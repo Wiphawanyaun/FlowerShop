@@ -42,6 +42,35 @@ const splide1 = new Splide('#splide1',{
       // wheel: true,
 });splide1.mount();
 
+var tabbar = document.getElementById('tab');
+var changecolor = document.getElementById('bar-btn')
+var display = 0;
+function hideshow(){
+      if(display == 0){
+            tabbar.style.display = 'block';
+            display =1 ;
+            changecolor.style.color = '#151515'
+      }
+
+      else{
+            tabbar.style.display = 'none';
+            display =0 ;
+            changecolor.style.color = '#eeede8';
+      }
+}
+
+document.addEventListener('scroll', () =>{
+      const header = document.querySelector('header');
+
+      if(window.scrollY >200){
+            header.classList.add('scrolled')
+      }
+
+     else{
+      header.classList.remove('scrolled')
+     }
+})
+
 
 
 

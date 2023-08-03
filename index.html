@@ -22,20 +22,19 @@
 </head>
 
 <body>
-    <div class="box-header container-fluid">
+    <div class="box-header container-fluid" id="home">
         <div class="tint">
             <!-- header start -->
-            <header>
+            <header id="header-bar">
                 <a href="#" class="brand">
                     <h2>FlowersShop</h2>
                 </a>
 
                 <nav class="navbar ">
 
-                    <a href="#about us">About us</a>
+                    <a href="#aboutus">About us</a>
                     <a href="#catalog">Catalog</a>
                     <a href="#event">Event</a>
-                    <a href="#contact">Contact</a>
                     <a href="#delivery">Delivery</a>
 
 
@@ -50,19 +49,18 @@
             </header>
             <!-- header end -->
             <!-- tabbar start -->
-            <div class="tabbar">
+            <div class="tabbar" >
                 <div class="tabbar-icon">
-                    <div class="fas fa-bars fa-xl icon" id="bar-btn"></div>
+                    <div class="fas fa-bars fa-xl icon" id="bar-btn" onclick="hideshow()"></div>
                 </div>
 
-                <div class="tabbar-show">
+                <div class="tabbar-show" id="tab">
 
                     <nav class="tabbar-item">
                         <a href="#home" class="brand-tabbar">Flowes Shop</a>
                         <a href="#about us">About us</a>
                         <a href="#catalog">Catalog</a>
                         <a href="#event">Event</a>
-                        <a href="#contact">Contact</a>
                         <a href="#delivery">Delivery</a>
                     </nav>
                 </div>
@@ -82,7 +80,7 @@
 
         </div>
     </div>
-    <section class="products ">
+    <section class="products" id="catalog">
         <nav class="navbar-product ">
             <div class="title-product ">
                 <a href="#" class="text-catalog">Catalog</a>
@@ -95,10 +93,12 @@
                 <div class="box-catalog-set splide__track">
                     <div class="box-catalog-item splide__list">
                         <div class="splide__slide">
-                            <div class="box-image">
+                            <div class="box-image" id="box-image">
                                 <img class="img-catalog"
                                     src="https://i.pinimg.com/564x/5c/76/89/5c76894727bab1ca84ce4d8f208f5d97.jpg"
                                     alt="">
+                                    <h2>Lovely Rose flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                         <div class="splide__slide">
@@ -106,6 +106,8 @@
                                 <img class="img-catalog"
                                     src="https://i.pinimg.com/originals/bb/f0/31/bbf031d544eab6cedf86d8227ef8529b.jpg"
                                     alt="">
+                                    <h2>Mint flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                         <div class="splide__slide">
@@ -113,6 +115,8 @@
                                 <img class="img-catalog"
                                     src="https://ruffledblog.com/wp-content/uploads/historic-wedding-venue-spring-garden-10.jpg"
                                     alt="">
+                                    <h2>Yellow Rose flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                         <div class="splide__slide">
@@ -120,6 +124,8 @@
                                 <img class="img-catalog"
                                     src="https://i.pinimg.com/originals/17/3a/04/173a048ce78e4075a5866fb0363cdd03.jpg"
                                     alt="">
+                                    <h2>Orange Rose flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                         <div class="splide__slide">
@@ -127,6 +133,8 @@
                                 <img class="img-catalog"
                                     src="https://i.pinimg.com/originals/6b/a4/17/6ba417498ebd7c5d9c1420a7d57e235b.jpg"
                                     alt="">
+                                    <h2>Purple flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                         <div class="splide__slide">
@@ -134,6 +142,8 @@
                                 <img class="img-catalog"
                                     src="https://i.pinimg.com/originals/15/f4/89/15f489045da5a1f24d52232d1345cb79.jpg"
                                     alt="">
+                                    <h2>Pink flower</h2>
+                                    <p class="price">3500 B</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +153,7 @@
         </div>
     </section>
 
-    <section class="mission">
+    <section class="mission" id="aboutus">
         <div class="image">
             <img src="https://i.pinimg.com/564x/e3/0c/48/e30c485c613812f0d6aaf9f18bddd4ea.jpg" alt="">
         </div>
@@ -158,7 +168,7 @@
     </section>
 
 
-    <section class="delivery">
+    <section class="delivery" id="delivery">
         <div class="text-title">
             <p class="sign">
                 Delivery
@@ -174,7 +184,7 @@
         </div>
     </section>
 
-    <section class="event">
+    <section class="event" id="event">
         <div class="event-detail">
 
             <h1>Event</h1>
@@ -253,6 +263,8 @@
             </div>
         </div>
     </div>
+
+    <div class="end"></div>
 
 
 

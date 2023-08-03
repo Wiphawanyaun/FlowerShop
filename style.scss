@@ -50,8 +50,12 @@ body {
   margin-right: -1rem;
   background-color: #151515a4;
 }
+header.scrolled{
+  background-color: #151515ce;
+}
 
 header {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -59,8 +63,8 @@ header {
   display: flex;
   padding: 1rem 2%;
   padding-bottom: .5rem;
-  z-index: 999px;
-
+  z-index: 99;
+  background-color: transparent;
   justify-content: space-between;
 
   .brand h2 {
@@ -106,44 +110,48 @@ header {
 }
 
 .tabbar {
+
   .tabbar-icon {
+    z-index: 100;
+    table-layout: fixed;
     opacity: 0;
     position: fixed;
     right: 0;
-    padding: 2.8rem 6.5%;
+    padding: 2.8rem 5%;
 
     .icon {
       color: $white;
       cursor: pointer;
     }
 
-    .icon:hover {
-      color: $pink;
-    }
+   
 
   }
 
   .tabbar-show {
+    z-index: 99;
+    table-layout: fixed;
     position: fixed;
     top: 0;
     right: 0px;
     display: none;
-
+    height: 100vh;
+    background-color: $cream;
     .tabbar-item {
-
       padding: 6rem 2.2rem;
       display: grid;
-      height: 100vh;
       width: 300px;
-      background-color: $cream;
+      
 
       a.brand-tabbar {
         text-align: center;
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: 'Great Vibes', cursive;
       }
 
       a {
+        margin: 2rem 0;
+        font-size: 1.5rem;
         text-decoration: none;
         color: $black;
       }
@@ -200,6 +208,13 @@ section.title {
 
 section.products {
   padding: 5rem 11%;
+
+  h2{
+    margin-top: 2rem ;
+  }
+  p{
+    font-size: 1.3rem;
+  }
 
   .navbar-product {
     display: flex;
@@ -291,7 +306,7 @@ section.products {
 
 .delivery {
   margin-top: -5rem;
-  padding: 0 11%;
+  padding: 5% 11%;
 
   .text-title {
     .sign {
@@ -405,7 +420,10 @@ section.products {
   }
 }
 
-
+.end{
+  background: $black;
+  height: 80px;
+}
 
 
 @media(max-width:1300px) {
