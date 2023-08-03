@@ -42,7 +42,7 @@ header {
   left: 0;
   width: 100%;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 1rem 2%;
   padding-bottom: 0.5rem;
   z-index: 999px;
   justify-content: space-between;
@@ -50,7 +50,7 @@ header {
 header .brand h2 {
   font-family: "Great Vibes", cursive;
   font-size: 3.5rem;
-  margin-left: 3.5rem;
+  margin-left: 3.5%;
   margin-top: 0.5rem;
 }
 header a {
@@ -84,7 +84,7 @@ header .icon:hover {
   opacity: 0;
   position: fixed;
   right: 0;
-  padding: 2.8rem 6.5rem;
+  padding: 2.8rem 6.5%;
 }
 .tabbar .tabbar-icon .icon {
   color: #ffffff;
@@ -209,6 +209,7 @@ section.products .box-catalog .box-image .img-catalog {
 }
 .mission .text-mission {
   padding: 10%;
+  margin-bottom: 3rem;
 }
 .mission .text-mission h1 {
   font-size: 5rem;
@@ -218,7 +219,7 @@ section.products .box-catalog .box-image .img-catalog {
   font-size: 2rem;
   position: absolute;
   padding-top: 5%;
-  padding-right: 20%;
+  padding-right: 12%;
   right: 0;
 }
 
@@ -236,7 +237,7 @@ section.products .box-catalog .box-image .img-catalog {
 .delivery .detail {
   display: flex;
   padding: 0 5%;
-  margin: 2.5rem 5rem;
+  margin: 4rem 5rem;
 }
 .delivery .detail p {
   padding: 0 2rem;
@@ -246,7 +247,7 @@ section.products .box-catalog .box-image .img-catalog {
 }
 
 .event {
-  margin-top: 4.5rem;
+  margin: 5rem 0;
   background-image: url(https://i.pinimg.com/originals/0f/14/75/0f14759c4b2eaf981ae403dfc1ed88ec.jpg);
   background-size: cover;
   background-position-y: -36rem;
@@ -264,6 +265,48 @@ section.products .box-catalog .box-image .img-catalog {
   margin-top: 3rem;
   font-family: "Great Vibes", cursive;
   font-size: 2rem;
+}
+
+#splide1 {
+  height: auto;
+}
+#splide1 .creating-event {
+  width: 100%;
+  display: flex;
+  padding: 3% 10%;
+  margin-left: 4%;
+}
+#splide1 .creating-event .image {
+  height: 100%;
+  width: 600px;
+}
+#splide1 .creating-event .image img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#splide1 .creating-event .detail {
+  padding: 3% 5%;
+}
+#splide1 .creating-event .detail h2 {
+  margin-top: -0.5rem;
+}
+#splide1 .creating-event .detail p.lorem {
+  padding-right: 30%;
+}
+#splide1 .creating-event .detail p.price {
+  margin: 2rem 0;
+}
+#splide1 .creating-event .detail button {
+  padding: 0.7rem 5rem;
+  background: #151515;
+  color: #eeede8;
+  border-width: 0;
+}
+#splide1 .creating-event .detail button:hover {
+  background-color: rgba(255, 192, 203, 0.493);
+  color: #151515;
 }
 
 @media (max-width: 1300px) {
@@ -316,6 +359,9 @@ section.products .box-catalog .box-image .img-catalog {
   section.title p.title-detail {
     padding: 0 10%;
   }
+  #splide1 .creating-event .image img {
+    height: 400px;
+  }
 }
 @media (max-width: 600px) {
   html {
@@ -329,6 +375,9 @@ section.products .box-catalog .box-image .img-catalog {
   }
   section.title h1 {
     font-size: 6rem;
+  }
+  .mission .image {
+    display: none;
   }
 }
 @media (max-width: 500px) {
